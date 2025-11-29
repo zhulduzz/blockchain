@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Document</title>
+
+<link rel="stylesheet" href="style.css" />
+
+
+<!-- Enabling the ethers library.js from CDN to support Ethereum for JavaScript. -->
+
+<script
+
+src="<https://cdn.ethers.io/lib/ethers-5.2.umd.min.js>"
+
+type="application/javascript"
+
+></script>
+
+
+<!-- Enabling the JavaScript file -->
+
+<script src="script.js"></script>
+
+</head>
+
+
+<body>
+
+<div>
+
+<h1>Note dApp</h1>
+
+<p>you can write notes and read notes from smart-contract</p>
+
+<br />
+
+<label for="note"> Write note:</label>
+
+<input type="text" id="note" />
+<button id="connectBtn">Connect Wallet</button>
+<button id="setNoteBtn">Set Note</button>
+<button id="getNoteBtn">Get Note</button>
+<p>My note: <span id="result"></span></p>
+
+<button id="r">Rock</button>
+<button id="p">Paper</button>
+<button id="s">Scissors</button>
+<p class="result"><p></p></p>
+<p id="action-msg"></p>
+
+
+<p>my note: <span id="result"></span></p>
+
+
+</div>
+
+</body>
+
+</html>
